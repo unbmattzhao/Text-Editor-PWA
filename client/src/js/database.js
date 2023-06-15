@@ -19,11 +19,9 @@ export const putDb = async (content) => {
     const db = await openDB("jate", 1);
     const tx = db.transaction("jate", "readwrite");
     const store = tx.objectStore("jate");
-    await store.put(content);
+    await store.put({ value: content }); // No need to specify id
     await tx.done;
-    const request = store.put({ id: 1, value: content });
-    const result = await request;
-    console.log("putDb successful", content, result);
+    console.log("putDb successful", content);
   } catch (error) {
     console.error("putDb failed", error);
   }
@@ -39,8 +37,18 @@ export const getDb = async () => {
     const store = tx.objectStore("jate");
     const request = store.getAll();
     const result = await request;
-    console.log("getDb successful", result);
-    return result;
+
+    // check if result has content and log the type
+    if (result && result.length > 0) {
+      console.log("getDb successful", result);
+      console.log("Type of data received: ", typeof result[0].value);
+
+      // Return only the value from the first object from the array
+      return result[0].value;
+    } else {
+      console.log("No data in IndexedDB");
+      return null;
+    }
   } catch (error) {
     console.error("getDb failed", error);
   }
