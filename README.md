@@ -12,9 +12,9 @@ https://mynewtext-editor-705567453e7c.herokuapp.com/
 
 ## Demo Pic
 
-[https://github.com/unbmattzhao/Text-Editor-PWA/blob/main/client/img/web_app.jpg | WebApp]
+[[https://github.com/unbmattzhao/Text-Editor-PWA/blob/main/client/img/web_app.jpg | WebApp]]
 
-[https://github.com/unbmattzhao/Text-Editor-PWA/blob/main/client/img/app_installed.jpg | AppInstalled]
+[[https://github.com/unbmattzhao/Text-Editor-PWA/blob/main/client/img/app_installed.jpg | AppInstalled]]
 
 ## Table of Contents
 
