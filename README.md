@@ -29,8 +29,8 @@ clone or fork the repo and run `npm install`
 
 ## Usage
 
-run `npm run start`
-or use it online at https://mynewtext-editor-705567453e7c.herokuapp.com/
+run `npm run start`  
+or use it online at https://mynewtext-editor-705567453e7c.herokuapp.com/  
 or install and use it locally by clicking `Install!` on the top left of the page
 
 ## Questions
