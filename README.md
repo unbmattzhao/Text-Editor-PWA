@@ -8,7 +8,9 @@ https://mynewtext-editor-705567453e7c.herokuapp.com/
 
 ## Demo Pic
 
-[Demo Pic]()
+[WebApp](https://github.com/unbmattzhao/Text-Editor-PWA/blob/main/client/img/web%20app.png)
+
+[AppInstalled](https://github.com/unbmattzhao/Text-Editor-PWA/blob/main/client/img/app%20installed.png)
 
 ## Table of Contents
 
